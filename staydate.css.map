@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACV,gBAAgB,EAAC,OAAkB;EACnC,OAAO,EAAC,aAAa;EACrB,QAAQ,EAAC,QACT;CAAC",
+    "sources": [
+        "staydate.scss"
+    ],
+    "names": [],
+    "file": "staydate.css"
+}

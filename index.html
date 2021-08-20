@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<!-- Navbar here -->
+<nav class="navigation">
+  <div class="container nav-container">
+     <a href='#' class="nav-logo">
+       <img src="images/logo-bookmark.svg">
+     </a>
+     <a href='#' class="nav-buton">
+       <img src="images/icon-hamburger.svg" />
+     </a>
+     <ul class="nav-list">
+        <li class="nav-item">
+          <a href='#' class="nav-link">FEATURES</a>
+        </li>
+        <li class="nav-item">
+          <a href='#' class="nav-link">PRICING</a>
+        </li>
+        <li class="nav-item">
+          <a href='#' class="nav-link">CONTACT</a>
+        </li>
+        <li class="nav-item contact">
+          <a href='#' class="nav-link">LOGIN</a>
+        </li>
+     </ul>
+  </div>
+</nav>
+<!-- Header -->
+<header class="header">
+   <div class="container">
+      <div class="header-container">
+        <div class="head-text">
+           <h2>A Simple Bookmark Manager</h2>
+           <p>A clean and simple interface to organize your favourite websites. Open a new 
+            browser tab and see your sites load instantly. Try it for free.</p>
+            <div class="head-btns">
+              <a href='#' class="chrome">Get it on Chrome</a>
+              <a href='#' class="firefox">Get it on Firefox</a>
+            </div>
+        </div>
+        <div class="head-img">
+           <img src="images/illustration-hero.svg">
+        </div>
+      </div>
+   </div>
+   <div class="circle"></div>
+</header>
+<!-- Section for webpage -->
+<section class="section">
+  <div class="container">
+    <div class="features-section">
+      <div class="features-text">
+        <h3>Features</h3>
+        <p>Our aim is to make it quick and easy for you to access your <br> favorite websites. Your bookmarks sync between your devices <br> so you can access them on the go</p>
+      </div>
+      <div class="features-btns">
+        <button type="button" class="simple-booking active simple-btn buton" data-id="simple">Simple Booking</button>
+        <button type="button" class="speedy-checking speedy-btn buton" data-id="speedy">Speedy Searching</button>
+        <button type="button" class="easy-sharing easy-btn buton" data-id="easy">Easy Searching</button>
+      </div>
+    </div>
+    <!-- Section for simple-booking & speedy-checking & easy-sharing -->
+    <div class="flex-section">
+      <div class="first-item active simple-item simple" id="simple">
+        <div class="simple">
+          <div class="simple-img">
+            <img src="images/illustration-features-tab-1.svg" />
+          </div>
+          <div class="simple-text">
+            <h2>Bookmark in one click</h2>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites</p>
+            <a href='#'>More info</a>
+          </div>
+        </div>
+      </div>
+      <div class="second-item speedy-item speedy" id="speedy">
+        <div class="simple">
+          <div class="simple-img">
+            <img src="images/illustration-features-tab-2.svg" />
+          </div>
+          <div class="simple-text">
+            <h2>Bookmark in one click</h2>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites</p>
+            <a href='#'>More info</a>
+          </div>
+        </div>
+      </div>
+      <div class="third-item easy-item easy" id="easy">
+        <div class="simple">
+          <div class="simple-img">
+            <img src="images/illustration-features-tab-3.svg" />
+          </div>
+          <div class="simple-text">
+            <h2>Bookmark in one click</h2>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites</p>
+            <a href='#'>More info</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Donwload the extensions -->
+<section class="extensions">
+  <div class="container">
+    <div class="extension-text">
+      <h3>Download the extensions</h3>
+      <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize</p>
+    </div>
+    <div class="extension-cards">
+      <div class="extension-card">
+         <div class="card">
+            <div class="card-img">
+              <img src="images/logo-chrome.svg">
+            </div>
+            <br>
+            <div class="card-text">
+              <h2>Add to Chrome</h2>
+              <p>Minimum version 6.2</p>
+            </div>
+            <br>
+            <div class="card-btn">
+              <button type="button">Add & Install Extension</button>
+            </div>
+         </div>
+      </div>
+      <div class="extension-card margin-top">
+         <div class="card">
+          <div class="card-img">
+            <img src="images/logo-firefox.svg">
+          </div>
+          <br>
+          <div class="card-text">
+            <h2>Add to Firefox</h2>
+            <p>Minimum version 55</p>
+          </div>
+          <br>
+          <div class="card-btn">
+            <button type="button">Add & Install Extension</button>
+          </div>
+         </div>
+      </div>
+      <div class="extension-card margin-top-2">
+         <div class="card">
+          <div class="card-img">
+            <img src="images/logo-opera.svg">
+          </div>
+          <br>
+          <div class="card-text">
+            <h2>Add to Opera</h2>
+            <p>Minimum version 46</p>
+          </div>
+          <br>
+          <div class="card-btn">
+            <button type="button">Add & Install Extension</button>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FAQ SECTIONS -->
+<section class="faq-section">
+   <div class="container">
+      <div class="faq-text">
+         <h2>Frequently asked questions</h2>
+         <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us</p>
+      </div>
+      <div class="faq-sections">
+        <div class="faq-question">
+          <div class="faq-btns">
+            <h3>What is bookmark?</h3>
+            <a href='#' class="faq-btn unu"><i class="fas fa-angle-down"></i></a>
+          </div>
+          <p class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores error nesciunt. Culpa, deleniti reprehenderit autem enim omnis repellendus nisi?</p>
+        </div>
+        <div class="faq-question">
+          <div class="faq-btns">
+            <h3>How can I request a new browser?</h3>
+            <a href='#' class="faq-btn doi"><i class="fas fa-angle-down"></i></a>
+          </div>
+          <p class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores error nesciunt. Culpa, deleniti reprehenderit autem enim omnis repellendus nisi?</p>
+        </div>
+        <div class="faq-question">
+          <div class="faq-btns">
+            <h3>Is there a mobile app?</h3>
+            <a href='#' class="faq-btn trei"><i class="fas fa-angle-down"></i></a>
+          </div>
+          <p class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores error nesciunt. Culpa, deleniti reprehenderit autem enim omnis repellendus nisi?</p>
+        </div>
+        <div class="faq-question">
+          <div class="faq-btns">
+            <h3>What about other Chromium browsers?</h3>
+            <a href='#' class="faq-btn patru"><i class="fas fa-angle-down"></i></a>
+          </div>
+          <p class="faq-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolores error nesciunt. Culpa, deleniti reprehenderit autem enim omnis repellendus nisi?</p>
+        </div>
+        <div class="faq-buton">
+          <button type="button">More Info</button>
+        </div>
+   </div>
+</section>
+<!-- Stay up to date -->
+<section class="stay-date">
+  <div class="container">
+    <div class="staydate-container">
+      <h3>35,000+ ALREADY JOINED</h3>
+      <div class="staydate-text">
+        <h2>Stay up-to-date with what <br> we're doing</h2>
+      </div>
+      <div class="staydate-input">
+        <input type="text" placeholder="E-Mail here"/>
+        <button type="button">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-flex">
+      <div class="footer-nav">
+        <div class="footer-img">
+          <img src="images/logo-bookmark.svg">
+        </div>
+        <li>
+          <a href='#'>FEATURES</a>
+        </li>
+        <li>
+          <a href='#'>PRICING</a>
+        </li>
+        <li>
+          <a href='#'>CONTACT</a>
+        </li>
+      </div>
+      <div class="footer-icon">
+        <a href='#'><img src="images/icon-facebook.svg" /></a>
+        <a href='#'><img src="images/icon-twitter.svg" /></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
